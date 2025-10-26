@@ -3,134 +3,110 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Troubleshooting</title>
-	<style>
-		.item1 { 
-			grid-area: site; 
-			background: #111111;
-			text: white;
-			padding: 20px;
-			margin: -8px;
-			font-size: 15px;
-		}
-		.item2 { 
-			grid-area: nav;
-			background: #111111;
-			text: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: right;
-			font-size: 15px;	
-		}
-		.item3 { 
-			grid-area: main;
-			margin: 30px;
-		}
-		.item4 { 
-			grid-area: socials;
-			background: #111111;
-			color: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: left;
-			font-size: 15px;
-		}
-		.item5 { 
-			grid-area: footer;
-			background: #111111;
-			color: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: center;
-			font-size: 15px;
-		}
-		.item6 { 
-			grid-area: fnav;
-			background: #111111;
-			text: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: right;
-			font-size: 15px;
-		}
-		.grid-container {
-			display: grid;
-			grid: 'site nav nav nav'
-			'main main main main'
-			'fnav fnav fnav fnav'
-			'socials footer footer footer';
-		}
-		body {
-			font-family: Arial;
-			background-color: white;
-		}
-		a {
-			color: white;
-			text-decoration: none;
-			margin: 20px;
-		}
-    </style>
+    <title>Troubleshooting</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="grid-container">
-	<div class="item1">
-		<br>
-		<a href="landingPage.html">3D Printer</a>
-		<br>
-		<br>
-	</div>
-	
-	<div class="item2">
-		<br>
-		<a href="userGuide.html">User Guide</a>
-		<a href="faqs.html">FAQs</a>
-		<a href="troubleshooting.html">Troubleshooting</a>
-		<a href="contact.html">Contact</a>
-		<br>
-		<br>
-	</div>
-	<div class="item3">
-		<h1> Troubleshooting Tips</h1>
-		<p style="color: #303030;"> subheading </p>
-		<h2> Print won't stick to the bed </h2>
-		<ul style="color: #303030;">
-			<li> The nozzle may be too far from the bed. Ensure the gap is correct when you trying to print. </li>
-			<li> Oils from fingers or dust can prevent adhesion. Clean the surface thoroughly with Isopropyl Alcohol (IPA) or soap and water</li>
-			<li> Use Adhesion Aids- Apply a thin layer of glue stick, hairspray, or painter's tape to the print surface. </li>
-			
-		</ul>
-		<h2> First layer is too squished </h2>
-		<ul style="color: #303030;">
-			<li> The nozzle is too close to the bed, blocking the filament flow. Raise the Z-offset slightly. </li>
-			<li> Ensure the bed is perfectly level across all points.</li>
-			
-		</ul>
-		<h2> edges of the print curl up off the print bed during the print </h2>
-		<ul style="color: #303030;">
-			<li> Add a raft in your slicer to increase the surface area touching the bed. </li>
-			<li> Use an enclosure to maintain a stable, warm temperature around the print, especially for materials like ABS.</li>
-			<li> Eliminate cold air currents that can cause uneven cooling and shrinking. </li>
-			
-		</ul>
-		<h2> Can't Find a Solution? </h2>
-		<p style="color: #303030;">Check out FAQ page or click contact page to contact us about problem!</p>
-	</div>
-	<div class="item6">
-		<br>
-		<a href="userGuide.html">User Guide</a>
-		<a href="faqs.html">FAQs</a>
-		<a href="troubleshooting.html">Troubleshooting</a>
-		<a href="contact.html">Contact</a>
-		<br>
-	</div>
-	<div class="item4">
-		<p> Stay connected :</p>
-	</div>
-	<div class="item5">
-		<br>
-		<br>
-		<p>© 2025 Company Name. All rights reserved.</p>
-	</div>
+    <div class="item1">
+        <br>
+        <a href="index.html">3D Printer Central</a>
+        <br>
+        <br>
+    </div>
+    
+    <div class="item2">
+        <br>
+        <a href="userGuide.html">User Guide</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="contact.html">Contact</a>
+        <br>
+        <br>
+    </div>
+    <div class="item3">
+        <h1> Troubleshooting Tips</h1>
+        <p> Common issues and how to fix them. </p>
+        <h2> Problem Description </h2>
+        <ul>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis.</li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+        </ul>
+        <h2> Problem Description </h2>
+        <ul>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis.</li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+        </ul>
+        <h2> Problem Description </h2>
+        <ul>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis.</li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. </li>
+            <li> Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis. </li>
+        </ul>
+        <h2> Can't Find a Solution? </h2>
+        <p>Lorem ipsum dolor sit amet consectetur. Eget 
+            imperdiet iaculis id a turpis. Lorem ipsum dolor sit 
+            amet consectetur. Eget imperdiet iaculis id a turpis.</p>
+    </div>
+    <div class="item6">
+        <br>
+        <a href="userGuide.html">User Guide</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="contact.html">Contact</a>
+        <br>
+    </div>
+    
+    <div class="item4">
+        <p>Stay connected:</p>
+        <div class="social-links">
+            <a href="#"><img src="Images/fb.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/x.png" alt="Twitter"></a>
+            <a href="#"><img src="Images/link.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    
+    <div class="item5">
+        <p>
+            <a href="mailto:">info@company.com</a> | 
+            <a href="tel:">+1234567890</a>
+        </p>
+        <p>© 2025 Company Name. All rights reserved.</p>
+    </div>
 </div>
 </body>
 </html>

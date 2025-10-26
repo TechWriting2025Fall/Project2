@@ -3,246 +3,164 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>User Guide</title>
-	<style>
-		.item1 { 
-			grid-area: site; 
-			background: #111111;
-			text: white;
-			padding: 20px;
-			margin: -8px;
-			font-size: 15px;
-		}
-		.item2 { 
-			grid-area: nav;
-			background: #111111;
-			text: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: right;
-			font-size: 15px;	
-		}
-		.item3 { 
-			grid-area: main; 
-			margin: 10px;
-			margin-bottom: 20px;
-			margin-top: 20px;
-			margin: 30px;
-		}
-		.item4 { 
-			grid-area: socials;
-			background: #111111;
-			color: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: left;
-			font-size: 15px;
-		}
-		.item5 { 
-			grid-area: footer;
-			background: #111111;
-			color: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: center;
-			font-size: 15px;
-		}
-		.item6 { 
-			grid-area: fnav;
-			background: #111111;
-			text: white;
-			padding: 20px;
-			margin: -8px;
-			text-align: right;
-			font-size: 15px;
-		}
-		.grid-container {
-			display: grid;
-			grid: 'site nav nav nav'
-			'main main main main'
-			'fnav fnav fnav fnav'
-			'socials footer footer footer';
-		}
-		body {
-			font-family: Arial;
-			background-color: white;
-		}
-		a {
-			color: white;
-			text-decoration: none;
-			margin: 20px;
-		}
-		hr {
-			border: 1px solid black;
-		}
-		.item1spec {
-			grid-area: spec;
-			text-align: left;
-			margin-left: 30px;
-		}
-		.item2spec {
-			grid-area: info;
-			text-align: right;
-			margin-right: 30px;
-		}
-		.spec-container1 {
-			display: grid;
-			grid: 'spec info';
-			padding: 8px;
-			text-align: center;
-		}
-		.spec-container2 {
-			display: grid;
-			background: #e1e2e3;
-			grid: 'spec info';
-			padding: 8px;
-			text-align: center;
-			
-		}
-		
-    </style>
+    <title>User Guide</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="grid-container">
-	<div class="item1">
-		<br>
-		<a href="landingPage.html">Site-name</a>
-		<br>
-		<br>
-	</div>
-	
-	<div class="item2">
-		<br>
-		<a href="userGuide.html">User Guide</a>
-		<a href="faqs.html">FAQs</a>
-		<a href="troubleshooting.html">Troubleshooting</a>
-		<a href="contact.html">Contact</a>
-		<br>
-		<br>
-	</div>
-	<div class="item3">
-		<h1> Features </h1>
-		<h2> Large Format Printing </h2>
-		<p>
-			Subtext that describes the feature, shares more info 
-			about the website, or generally gets people psyched to 
-			keep scrolling. Subtext that describes the feature, 
-			shares more info about the website, or generally gets 
-			people psyched to keep scrolling. Subtext that describes 
-			the feature, shares more info.
-		</p>
-		<h2> Intuitive 7-Inch Touchscreen Control </h2>
-		<p>
-			Subtext that describes the feature, shares more info 
-			about the website, or generally gets people psyched to 
-			keep scrolling. Subtext that describes the feature, 
-			shares more info about the website, or generally gets 
-			people psyched to keep scrolling. Subtext that describes 
-			the feature, shares more info.
-		</p>
-		<h2> High speed System </h2>
-		<p>
-			Subtext that describes the feature, shares more info 
-			about the website, or generally gets people psyched to 
-			keep scrolling. Subtext that describes the feature, 
-			shares more info about the website, or generally gets 
-			people psyched to keep scrolling. Subtext that describes 
-			the feature, shares more info.
-		</p>
-		<hr>
-		
-		<h1> Specifications </h1>
-		<h2 style="background: black; color:white; padding:8px;"> 
-			Printer Specifications 
-		</h2>
-		<div class="spec-container1">
-			<div class="item1spec">
-			<p> Build Volume </p>
-			</div>
-			<div class="item2spec">
-			<p>450 × 400 × 520 mm<br>(17.7 × 15.7 × 20.5 inches)<p>
-			</div>
-		</div>
-		<div class="spec-container2">
-			<div class="item1spec">
-			<p> Layer Resolution </p>
-			</div>
-			<div class="item2spec">
-			<p>Minimum: 50 microns<br>Maximum: 400 microns<p>
-			</div>
-		</div>
-		<div class="spec-container1">
-			<div class="item1spec">
-			<p> Print Speed </p>
-			</div>
-			<div class="item2spec">
-			<p>Standard: 80 mm/s<br>Maximum: 200 mm/s<p>
-			</div>
-		</div>
-		<div class="spec-container2">
-			<div class="item1spec">
-			<p> Dimensions & Weight </p>
-			</div>
-			<div class="item2spec">
-			<p>Machine: 620 × 580 × 750 mm<br>Weight: 38 kg<p>
-			</div>
-		</div>
-		<div class="spec-container1">
-			<div class="item1spec">
-			<p> Power Requirements </p>
-			</div>
-			<div class="item2spec">
-			<p>110-240V AC, 50/60Hz<br>600W average consumptionp>
-			</div>
-		</div>
-		<div class="spec-container2">
-			<div class="item1spec">
-			<p> Control Interface </p>
-			</div>
-			<div class="item2spec">
-			<p>7-inch full-color touchscreen Web-based remote monitoring<p>
-		</div>
-		</div>
-		<hr>
-		
-		<h1> Installation </h1>
-		<h3> Step 1: Unpack and Physical Installation </h3>
-		<ol>
-			<li>Unboxing: Carefully remove printer from the packaging. Place the unit on a stable table.</li>
-			<li>Remove every protective: Remove all protective foam, plastic wrap an zip ties. Failure to remove these might damage printer, please be careful! </li>
-			<li>Setup: Attach the filament spool holder and the external power supply to the rear of the machine.</li>
-		</ol>
-		<br>
-		<h3> Step 2: Wiring </h3>
-		<ol>
-			<li>Connect power: Plug the power supply into designated port on the printer, but do not plug into the wall yet please. </li>
-			<li>Connections: Check that all motor and endstop cables inside the enclosure are secured. </li>
-			<li>Lubricate Motion System: Apply a small amount of non-acdic lithium grease. </li>
-		</ol>
-		<br>
-		<h3> Step 3: Testing </h3>
-		<ol>
-			<li>Power: Plug the power cable into the wall, turn the main power switch ON. </li>
-			<li>Self-Test: Navigate menu on the touchscreen and select Setup -> Self-Test. This will check make sure everything in printer is ready to print. </li>
-			<li>Perform ABL and Z-offest: Run the Automatic Bed Leveling routine. Once it's done, set the Z-offset using the paper test to adjust distance between the nozzle and the build plate for optimal first layer. </li>
-		</ol>
-	</div>
-	<div class="item6">
-		<br>
-		<a href="userGuide.html">User Guide</a>
-		<a href="faqs.html">FAQs</a>
-		<a href="troubleshooting.html">Troubleshooting</a>
-		<a href="contact.html">Contact</a>
-		<br>
-	</div>
-	<div class="item4">
-		<p> Stay connected :</p>
-	</div>
-	<div class="item5">
-		<br>
-		<br>
-		<p>© 2025 Company Name. All rights reserved.</p>
-	</div>
+    <div class="item1">
+        <br>
+        <a href="index.html">3D Printer Central</a>
+        <br>
+        <br>
+    </div>
+    
+    <div class="item2">
+        <br>
+        <a href="userGuide.html">User Guide</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="contact.html">Contact</a>
+        <br>
+        <br>
+    </div>
+    <div class="item3">
+        <h1> Features </h1>
+        <h2> Feature Title </h2>
+        <p>
+            Subtext that describes the feature, shares more info 
+            about the website, or generally gets people psyched to 
+            keep scrolling. Subtext that describes the feature, 
+            shares more info about the website, or generally gets 
+            people psyched to keep scrolling. Subtext that describes 
+            the feature, shares more info.
+        </p>
+        <h2> Feature Title </h2>
+        <p>
+            Subtext that describes the feature, shares more info 
+            about the website, or generally gets people psyched to 
+            keep scrolling. Subtext that describes the feature, 
+            shares more info about the website, or generally gets 
+            people psyched to keep scrolling. Subtext that describes 
+            the feature, shares more info.
+        </p>
+        <h2> Feature Title </h2>
+        <p>
+            Subtext that describes the feature, shares more info 
+            about the website, or generally gets people psyched to 
+            keep scrolling. Subtext that describes the feature, 
+            shares more info about the website, or generally gets 
+            people psyched to keep scrolling. Subtext that describes 
+            the feature, shares more info.
+        </p>
+        <hr>
+        
+        <h1> Specifications </h1>
+        <h2 style="background: black; color:white; padding:8px;"> 
+            Printer Specifications 
+        </h2>
+        <div class="spec-container1">
+            <div class="item1spec">
+            <p> Build Volume </p>
+            </div>
+            <div class="item2spec">
+            <p>450 × 400 × 520 mm<br>(17.7 × 15.7 × 20.5 inches)<p>
+            </div>
+        </div>
+        <div class="spec-container2">
+            <div class="item1spec">
+            <p> Layer Resolution </p>
+            </div>
+            <div class="item2spec">
+            <p>Minimum: 50 microns<br>Maximum: 400 microns<p>
+            </div>
+        </div>
+        <div class="spec-container1">
+            <div class="item1spec">
+            <p> Print Speed </p>
+            </div>
+            <div class="item2spec">
+            <p>Standard: 80 mm/s<br>Maximum: 200 mm/s<p>
+            </div>
+        </div>
+        <div class="spec-container2">
+            <div class="item1spec">
+            <p> Dimensions & Weight </p>
+            </div>
+            <div class="item2spec">
+            <p>Machine: 620 × 580 × 750 mm<br>Weight: 38 kg<p>
+            </div>
+        </div>
+        <div class="spec-container1">
+            <div class="item1spec">
+            <p> Power Requirements </p>
+            </div>
+            <div class="item2spec">
+            <p>110-240V AC, 50/60Hz<br>600W average consumption<p>
+            </div>
+        </div>
+        <div class="spec-container2">
+            <div class="item1spec">
+            <p> Control Interface </p>
+            </div>
+            <div class="item2spec">
+            <p>7-inch full-color touchscreen Web-based remote monitoring<p>
+        </div>
+        </div>
+        <hr>
+        
+        <h1> Installation </h1>
+        <h3> Step 1: </h3>
+        <ol>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+        </ol>
+        <br>
+        <h3> Step 2: </h3>
+        <ol>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+        </ol>
+        <br>
+        <h3> Step 3: </h3>
+        <ol>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+        </ol>
+    </div>
+    <div class="item6">
+        <br>
+        <a href="userGuide.html">User Guide</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="troubleshooting.html">Troubleshooting</a>
+        <a href="contact.html">Contact</a>
+        <br>
+    </div>
+    
+    <div class="item4">
+        <p>Stay connected:</p>
+        <div class="social-links">
+            <a href="#"><img src="Images/fb.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/x.png" alt="Twitter"></a>
+            <a href="#"><img src="Images/link.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+    
+    <div class="item5">
+        <p>
+            <a href="mailto:">info@company.com</a> | 
+            <a href="tel:">+1234567890</a>
+        </p>
+        <p>© 2025 Company Name. All rights reserved.</p>
+    </div>
 </div>
 </body>
 </html>
